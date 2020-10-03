@@ -50,4 +50,9 @@ header {
     }
   }
 }
+
+.home {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
 </style>
