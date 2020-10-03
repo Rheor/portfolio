@@ -1,15 +1,14 @@
 <template>
   <div id="app">
-    <div>
-      <div id="photoHolder"></div>
+    <header>
       <div id="nav">
         <router-link to="/">Accueil</router-link>
         <router-link to="/about">Moi</router-link>
         <router-link to="/services">Services</router-link>
         <router-link to="/contact">Contact</router-link>
       </div>
-    </div>
-    <router-view />
+    </header>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -22,14 +21,13 @@
   color: #2c3e50;
 }
 
-#photoHolder {
-  float: left;
-  width: 50%;
+header {
+  display: flex;
+  justify-content: flex-end;
 }
 
 #nav {
   padding: 30px;
-  float: right;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
