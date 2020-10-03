@@ -1,6 +1,8 @@
 <template>
   <div class="home">
-    <h2>Mes informations de contact</h2>
+    <p>
+      Vous pouvez me joindre à l'adresse mail suivante : {{ this.mailAddress }}
+    </p>
   </div>
 </template>
 
@@ -9,6 +11,9 @@
 
 export default {
   name: "Contact",
+  props: {
+    mailAddress: String,
+  },
   components: {},
 };
 </script>
