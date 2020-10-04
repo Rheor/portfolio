@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Services from '../views/Services.vue'
 
 Vue.use(VueRouter)
 
 const routes = [{
         path: '/',
-        name: 'Home',
-        component: Home
+        name: 'Services',
+        component: Services
     },
     {
         path: '/about',
@@ -32,16 +32,6 @@ const routes = [{
             mailAddress: "sami.saadawi.pro@gmail.com"
         }
     },
-    {
-        path: '/services',
-        name: 'Services',
-
-        // route level code-splitting
-        // this generates a separate chunk (services.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () =>
-            import ( /* webpackChunkName: "services" */ '../views/Services.vue')
-    }
 ]
 
 const router = new VueRouter({

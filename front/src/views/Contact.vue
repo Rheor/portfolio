@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <p>
-      Vous pouvez me joindre à l'adresse mail suivante : {{ this.mailAddress }}
+      Vous pouvez me joindre à l'adresse mail suivante : {{ this.mailAddress }}.
     </p>
   </div>
 </template>

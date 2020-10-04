@@ -2,9 +2,8 @@
   <div id="app">
     <header>
       <div id="nav">
-        <router-link to="/">Accueil</router-link>
+        <router-link to="/">Services</router-link>
         <router-link to="/about">Moi</router-link>
-        <router-link to="/services">Services</router-link>
         <router-link to="/contact">Contact</router-link>
       </div>
     </header>
@@ -32,7 +31,6 @@ header {
   flex-wrap: wrap;
   justify-content: flex-end;
   align-content: space-around;
-  width: 50%;
   border-bottom: black;
   border-style: solid;
   border-width: 1em;
