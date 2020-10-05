@@ -14,6 +14,7 @@
 <style lang="scss">
 #app {
   font-family: Constantia, Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -33,12 +34,12 @@ header {
   align-content: space-around;
   border-bottom: black;
   border-style: solid;
-  border-width: 1em;
+  border-width: 0.5em;
   border-top: none;
   border-right: none;
   a {
     font-weight: bold;
-    font-size: 3em;
+    font-size: 1.5em;
     color: #2c3e50;
     text-decoration: none;
     margin: 1rem;
@@ -52,5 +53,17 @@ header {
 .home {
   padding-top: 10vh;
   padding-bottom: 10vh;
+  padding-right: 10vw;
+  padding-left: 10vw;
+}
+
+.card {
+  padding: 1em;
+  border: black;
+  border-style: solid;
+  border-width: 0.25em;
+  background: white;
+  text-align: left;
+  margin: 0.5em;
 }
 </style>

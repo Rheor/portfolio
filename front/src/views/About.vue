@@ -1,6 +1,32 @@
 <template>
   <div class="home">
-    <h2>A propos de moi</h2>
+    <div class="card">
+      <h2>Etudes et profil technique</h2>
+      <p>
+        J'ai effectué des études d'ingénieur lors desquelles j'ai pu me
+        spécialiser dans le développement full-stack et sur le Cloud.
+      </p>
+      <p>
+        Pour plus d'informations par rapport à mon parcours professionnel
+        veuillez vous référer à mon
+        <a href="Sami.pdf" download>CV</a>
+      </p>
+      <p></p>
+    </div>
+    <div class="card">
+      <h2>Passions, hobbies et style de vie</h2>
+      <p>
+        <ul>
+          <li>Musculation au poids du corps</li>
+          <li>Corde à sauter</li>
+          <li>Méditation</li>
+          <li>La nature</li>
+          <li>Rendre ma vie la plus épanouissante possible</li>
+          <li>La nutrition, comme fermenter des choses et le jeûn intermittent</li>
+        </ul>
+        Pour le moment c'est ce qui m'occupe dans mon temps libre.
+      </p>
+    </div>
   </div>
 </template>
 
