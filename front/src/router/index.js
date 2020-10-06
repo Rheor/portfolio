@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Services from '../views/Services.vue'
+import Portfolio from '../views/Portfolio.vue'
 
 Vue.use(VueRouter)
 
 const routes = [{
         path: '/',
-        name: 'Services',
-        component: Services
+        name: 'Portfolio',
+        component: Portfolio
     },
     {
         path: '/about',

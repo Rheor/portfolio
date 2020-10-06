@@ -2,7 +2,7 @@
   <div id="app">
     <header>
       <div id="nav">
-        <router-link to="/">Services</router-link>
+        <router-link to="/">Portfolio</router-link>
         <router-link to="/about">Moi</router-link>
         <router-link to="/contact">Contact</router-link>
       </div>
@@ -17,7 +17,6 @@
   font-size: 1.5em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 
@@ -51,10 +50,10 @@ header {
 }
 
 .home {
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-  padding-right: 10vw;
-  padding-left: 10vw;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  padding-right: 4em;
+  padding-left: 4em;
 }
 
 .card {
@@ -65,5 +64,33 @@ header {
   background: white;
   text-align: left;
   margin: 0.5em;
+}
+
+.portfolioClient {
+  width: 50em;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  justify-content: space-between;
+
+  img {
+    height: 10em;
+    width: 20em;
+    border: gray;
+    border-style: solid;
+    border-width: 0.5em;
+  }
+
+  .portfolioDescription {
+    margin-left: 5vmin;
+
+    a {
+      text-decoration: none;
+      color: gray;
+    }
+    h3 {
+      margin-top: 0;
+    }
+  }
 }
 </style>
