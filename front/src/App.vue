@@ -8,6 +8,13 @@
       </div>
     </header>
     <router-view></router-view>
+    <footer>
+      <div id="footerNav">
+        <router-link to="/">Portfolio</router-link>
+        <router-link to="/about">Moi</router-link>
+        <router-link to="/contact">Contact</router-link>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -24,15 +31,33 @@ header {
   background-color: #333333;
 }
 
-#nav {
-  width: 20em;
+footer {
+  height: 2em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #333333;
+}
+
+@mixin centeredDiv($width) {
+  width: $width;
   margin: 0 auto;
-  background-color: white;
-  padding: 30px;
+}
+
+@mixin centerWrapFlex() {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
-  align-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#nav {
+  @include centeredDiv(20em);
+  @include centerWrapFlex();
+  background-color: white;
+  padding: 1em;
+  flex-wrap: wrap;
+
   border: 0.5em solid #555555;
   border-top: none;
 
@@ -46,6 +71,15 @@ header {
     &.router-link-exact-active {
       color: #555555;
     }
+  }
+}
+
+#footerNav {
+  @include centeredDiv(10em);
+  @include centerWrapFlex();
+  a {
+    text-decoration: none;
+    color: #ffffff;
   }
 }
 
