@@ -17,12 +17,12 @@
       <h2>Passions, hobbies et style de vie</h2>
       <p>
         <ul>
-          <li>Musculation au poids du corps</li>
-          <li>Corde à sauter</li>
-          <li>Méditation</li>
-          <li>La nature</li>
-          <li>Rendre ma vie la plus épanouissante possible</li>
-          <li>La nutrition, comme fermenter des choses et le jeûn intermittent</li>
+          <li>La musculation au poids du corps.</li>
+          <li>La corde à sauter.</li>
+          <li>La méditation.</li>
+          <li>La nature.</li>
+          <li>La nutrition, comme la fermentation et le jeûn intermittent.</li>
+          <li>Les sorties à vélo (bientôt).</li>
         </ul>
         Pour le moment c'est ce qui m'occupe dans mon temps libre.
       </p>
