@@ -17,34 +17,34 @@
   font-size: 1.5em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  color: #111111;
 }
 
 header {
-  display: flex;
-  justify-content: flex-end;
+  background-color: #333333;
 }
 
 #nav {
+  width: 20em;
+  margin: 0 auto;
+  background-color: white;
   padding: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
   align-content: space-around;
-  border-bottom: black;
-  border-style: solid;
-  border-width: 0.5em;
+  border: 0.5em solid #555555;
   border-top: none;
-  border-right: none;
+
   a {
     font-weight: bold;
     font-size: 1.5em;
-    color: #2c3e50;
+    color: #222222;
     text-decoration: none;
     margin: 1rem;
 
     &.router-link-exact-active {
-      color: grayscale($color: #42b983);
+      color: #555555;
     }
   }
 }
@@ -76,7 +76,7 @@ header {
   img {
     height: 10em;
     width: 20em;
-    border: gray;
+    border: #777777;
     border-style: solid;
     border-width: 0.5em;
   }
@@ -86,7 +86,7 @@ header {
 
     a {
       text-decoration: none;
-      color: gray;
+      color: #777777;
     }
     h3 {
       margin-top: 0;
