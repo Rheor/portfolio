@@ -51,6 +51,16 @@ footer {
   align-items: center;
 }
 
+@mixin cardDisplay() {
+  padding: 1em;
+  border: black;
+  border-style: solid;
+  border-width: 0.25em;
+  background: white;
+  text-align: left;
+  margin: 0.5em;
+}
+
 #nav {
   @include centeredDiv(20em);
   @include centerWrapFlex();
@@ -91,16 +101,11 @@ footer {
 }
 
 .card {
-  padding: 1em;
-  border: black;
-  border-style: solid;
-  border-width: 0.25em;
-  background: white;
-  text-align: left;
-  margin: 0.5em;
+  @include cardDisplay();
 }
 
 .portfolioClient {
+  @include cardDisplay();
   width: 50em;
   display: flex;
   flex-wrap: nowrap;
