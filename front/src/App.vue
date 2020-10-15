@@ -27,6 +27,11 @@
   color: #111111;
 }
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 header {
   background-color: #333333;
 }
