@@ -14,12 +14,13 @@
         <h4>Services:</h4>
         <ul>
           <li>
-            Création (manuelle) de configurations d'imports dans l'outil interne
-            de gestion de flux.
+            Configurer l'import de nouveaux e-books à partir des fichiers
+            présents sur le ftp dont: les métadonnées ainsi que les fichiers
+            sources.
           </li>
           <li>
-            Scripts correctifs d'epub lorsque des problèmes d'affichage sur
-            certains lecteurs sont rencontrés.
+            Correctifs de fichiers format epub lorsque des problèmes d'affichage
+            sur certains lecteurs sont rencontrés.
           </li>
           <li>
             Scripts de scrapping de site tiers pour aller récupérer de nouveaux
