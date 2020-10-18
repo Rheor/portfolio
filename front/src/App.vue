@@ -57,13 +57,13 @@ footer {
 }
 
 @mixin cardDisplay() {
+  display: inline-block;
   padding: 1em;
   border: black;
   border-style: solid;
   border-width: 0.25em;
-  background: white;
   text-align: left;
-  margin: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 #nav {
