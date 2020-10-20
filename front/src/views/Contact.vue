@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div id="contactContainer" class="home">
     <div id="contactCard" class="card">
       <form>
         <label for="name">Nom, prénom ou pseudo</label><br />
@@ -25,6 +25,12 @@
   padding: 0.3em;
 }
 
+#contactContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #contactCard {
   width: 50%;
   background: #55555533;
@@ -35,9 +41,14 @@ label {
   margin-bottom: 0.2em;
 }
 
-input,
+input {
+  @include formInput();
+  font-size: 0.75em;
+}
+
 textarea {
   @include formInput();
+  font-size: 1em;
 }
 </style>
 
