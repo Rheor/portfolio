@@ -1,5 +1,5 @@
 <template>
-  <div id="contactContainer" class="home">
+  <section id="contactContainer" class="home">
     <div id="contactCard" class="card">
       <form>
         <label for="name">Nom, prénom ou pseudo</label><br />
@@ -10,7 +10,7 @@
         <textarea id="message" name="message"></textarea>
       </form>
     </div>
-  </div>
+  </section>
 </template>
 
 <style lang="scss">

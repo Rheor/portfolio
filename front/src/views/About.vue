@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <section class="home">
     <div class="card">
       <h2>Etudes et profil technique</h2>
       <p>
@@ -27,7 +27,7 @@
         Pour le moment c'est ce qui m'occupe dans mon temps libre.
       </p>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
