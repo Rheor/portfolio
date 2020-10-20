@@ -99,8 +99,8 @@ footer {
 }
 
 .home {
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 1.5em;
+  padding-bottom: 3em;
   padding-right: 4em;
   padding-left: 4em;
 }
