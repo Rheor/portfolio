@@ -4,14 +4,28 @@
       <form
         action="https://formcarry.com/s/d0H_pd8yNa"
         method="POST"
-        accept-charset="UTF-8"
+        accept-charsetemail="UTF-8"
       >
         <label for="name">Nom, prénom ou pseudo</label><br />
-        <input type="text" id="name" name="name" /><br />
+        <input type="text" id="name" name="name" required /><br />
+
         <label for="email">Email</label><br />
-        <input type="text" id="email" name="email" /><br />
+        <input
+          type="text"
+          id="email"
+          name="email"
+          pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"
+          required
+        /><br />
+
         <label for="message">Votre message</label><br />
-        <textarea id="message" name="message"></textarea>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Say hi"
+          required
+        ></textarea>
+
         <input type="submit" value="Envoyer" />
       </form>
     </div>
