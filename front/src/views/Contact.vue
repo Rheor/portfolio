@@ -1,13 +1,18 @@
 <template>
   <section id="contactContainer" class="home">
     <div id="contactCard" class="card">
-      <form>
+      <form
+        action="https://formcarry.com/s/d0H_pd8yNa"
+        method="POST"
+        accept-charset="UTF-8"
+      >
         <label for="name">Nom, prénom ou pseudo</label><br />
         <input type="text" id="name" name="name" /><br />
         <label for="email">Email</label><br />
         <input type="text" id="email" name="email" /><br />
         <label for="message">Votre message</label><br />
         <textarea id="message" name="message"></textarea>
+        <input type="submit" value="Envoyer" />
       </form>
     </div>
   </section>
@@ -44,6 +49,12 @@ label {
 input {
   @include formInput();
   font-size: 0.75em;
+}
+
+input[type="submit"] {
+  @include formInput();
+  margin-top: 1.2em;
+  width: 30%;
 }
 
 textarea {
