@@ -9,7 +9,7 @@
       <p>
         Pour plus d'informations par rapport à mon parcours professionnel
         veuillez vous référer à mon
-        <a href="Sami.pdf" download>CV</a>
+        <a href="resume.pdf" download>CV</a>
       </p>
       <p></p>
     </div>
